@@ -39,11 +39,14 @@ function App() {
         <img className="w-auto h-1/4" src="../assets/my-awards.png" alt="" />
         </div>
         <br />
-        <div className="emojis">
-        <div className="left">
+        <div className="flex gap-16">
+        <div className="flex gap-2">
          <p className="text-xl">❤️ 👍🏻 😂</p>
+         <p className=" text-gray-600 text-sm mt-2">Imran and 300,000 others</p>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <p className=" text-gray-600 text-xs mt-2">300 Comments</p>
+        </div>
       </div>
       </div>
     </>
