@@ -28,7 +28,7 @@ function App() {
         <div className="paragraph">
           <p className="text-black">
             I Got The First Position In The Teckno Kids Course And Achieve The
-            Certificate With SmartWatch Of Saylani Mass It Training Program.{" "}
+            Certificate With SmartWatch Of Saylani Mass It Training Program.
             <span>
               Sir Rizwan, thank you for treating me and the entire class so well
               Learning
@@ -60,17 +60,17 @@ function App() {
         <br />
         <div className="flex gap-16">
           <div className="flex">
-            <img className="w-14 h-14" src="../assets/like.jpg" alt="" />
+            <img className="w-14 h-14" src="https://media.istockphoto.com/id/1136351242/vector/like-social-media-hand-line-icon-editable-stroke-pixel-perfect-for-mobile-and-web.jpg?s=612x612&w=0&k=20&c=OnKkq5JCHkLvZ1Ck_njtTQMCyLljXsXGNhGqVpwwVUA=" alt="" />
             <p className="mt-5 text-sm">Like</p>
           </div>
           <div className="mt-4 flex gap-2">
-            <img className="w-8 h-8" src="../assets/comment.png" alt="" />
+            <img className="w-8 h-8" src="https://cdn-icons-png.flaticon.com/512/1380/1380338.png" alt="" />
             <p className=" mt-1 text-sm">Comment</p>
           </div>
-          <div className="flex">
+          <div className="flex gap-1">
             <img
-              className="w-12 h-12 mt-1"
-              src="../assets/2295247-200.png"
+              className="w-10 h-10 mt-2"
+              src="https://cdn-icons-png.flaticon.com/512/2615/2615680.png"
               alt=""
             />
             <p className="mt-4 text-sm">Share</p>
