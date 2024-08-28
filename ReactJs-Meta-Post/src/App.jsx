@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="bg-white w-1/3 m-auto mt-16 p-5">
+      <div className="bg-white w-1/3 m-auto mt-10 p-5">
         <div className="flex justify-around gap-44">
           <div className="flex gap-3">
             <img
@@ -31,10 +31,12 @@ function App() {
             Training Program.  <span>
             Sir Rizwan, thank you for treating me and the entire class so well Learning</span>
           </p>
+          <br />
+          <p className="text-sm text-blue-500">#Rizwan Bhatti  #Saylani Mass It Training Program</p>
         </div>
         <br />
         <div>
-        <img className="w-3/4 h-1/4" src="../assets/my-awards.png" alt="" />
+        <img className="w-auto h-1/4" src="../assets/my-awards.png" alt="" />
         </div>
       </div>
     </>
