@@ -27,41 +27,55 @@ function App() {
         <br />
         <div className="paragraph">
           <p className="text-black">
-            I Got The First Position In The Teckno Kids Course And Achieve The Certificate With SmartWatch Of Saylani Mass It
-            Training Program.  <span>
-            Sir Rizwan, thank you for treating me and the entire class so well Learning</span>
+            I Got The First Position In The Teckno Kids Course And Achieve The
+            Certificate With SmartWatch Of Saylani Mass It Training Program.{" "}
+            <span>
+              Sir Rizwan, thank you for treating me and the entire class so well
+              Learning
+            </span>
           </p>
           <br />
-          <p className="text-sm text-blue-500">#Rizwan Bhatti  #Saylani Mass It Training Program</p>
+          <p className="text-sm text-blue-500">
+            #Rizwan Bhatti #Saylani Mass It Training Program
+          </p>
         </div>
         <br />
         <div>
-        <img className="w-auto h-1/4" src="../assets/my-awards.png" alt="" />
+          <img className="w-auto h-1/4" src="../assets/my-awards.png" alt="" />
         </div>
         <br />
         <div className="flex gap-16">
-        <div className="flex gap-2">
-         <p className="text-xl">❤️ 👍🏻 😂</p>
-         <p className=" text-gray-600 text-sm mt-2">Imran and 300,000 others</p>
+          <div className="flex gap-2">
+            <p className="text-xl">❤️ 👍🏻 😂</p>
+            <p className=" text-gray-600 text-sm mt-2">
+              Imran and 300,000 others
+            </p>
+          </div>
+          <div className="right">
+            <p className=" text-gray-600 text-xs mt-2">300 Comments</p>
+          </div>
         </div>
-        <div className="right">
-          <p className=" text-gray-600 text-xs mt-2">300 Comments</p>
+        <br />
+        <hr className="border-gray-500" />
+        <br />
+        <div className="flex gap-16">
+          <div className="flex">
+            <img className="w-14 h-14" src="../assets/like.jpg" alt="" />
+            <p className="mt-5 text-sm">Like</p>
+          </div>
+          <div className="mt-4 flex gap-2">
+            <img className="w-8 h-8" src="../assets/comment.png" alt="" />
+            <p className=" mt-1 text-sm">Comment</p>
+          </div>
+          <div className="flex">
+            <img
+              className="w-12 h-12 mt-1"
+              src="../assets/2295247-200.png"
+              alt=""
+            />
+            <p className="mt-4 text-sm">Share</p>
+          </div>
         </div>
-      </div>
-      <br />
-      <hr className="border-gray-500" />
-      <br />
-      <div className="flex gap-20">
-        <div className="like">
-          <img className="w-16 h-16" src="../assets/like.jpg" alt="" />
-        </div>
-        <div className="mt-6">
-          <img className="w-8 h-8" src="../assets/comment.png" alt="" />
-        </div>
-        <div className="mt-2">
-          <img className="w-14 h-14" src="../assets/2295247-200.png" alt="" />
-        </div>
-      </div>
       </div>
     </>
   );
