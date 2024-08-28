@@ -49,8 +49,19 @@ function App() {
         </div>
       </div>
       <br />
-      <hr />
-      
+      <hr className="border-gray-500" />
+      <br />
+      <div className="flex gap-20">
+        <div className="like">
+          <img className="w-16 h-16" src="../assets/like.jpg" alt="" />
+        </div>
+        <div className="mt-6">
+          <img className="w-8 h-8" src="../assets/comment.png" alt="" />
+        </div>
+        <div className="mt-2">
+          <img className="w-14 h-14" src="../assets/2295247-200.png" alt="" />
+        </div>
+      </div>
       </div>
     </>
   );
