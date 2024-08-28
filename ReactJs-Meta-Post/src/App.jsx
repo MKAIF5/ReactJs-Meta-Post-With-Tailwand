@@ -27,7 +27,7 @@ function App() {
         <br />
         <div className="paragraph">
           <p className="text-black">
-            I Got The First Position In The Teckno Kids Course Of Saylani Mass It
+            I Got The First Position In The Teckno Kids Course And Achieve The Certificate With SmartWatch Of Saylani Mass It
             Training Program.  <span>
             Sir Rizwan, thank you for treating me and the entire class so well Learning</span>
           </p>
@@ -48,6 +48,9 @@ function App() {
           <p className=" text-gray-600 text-xs mt-2">300 Comments</p>
         </div>
       </div>
+      <br />
+      <hr />
+      
       </div>
     </>
   );
