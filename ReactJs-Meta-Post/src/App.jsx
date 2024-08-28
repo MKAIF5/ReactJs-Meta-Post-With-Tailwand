@@ -38,6 +38,13 @@ function App() {
         <div>
         <img className="w-auto h-1/4" src="../assets/my-awards.png" alt="" />
         </div>
+        <br />
+        <div className="emojis">
+        <div className="left">
+         <p className="text-xl">❤️ 👍🏻 😂</p>
+        </div>
+        <div className="right"></div>
+      </div>
       </div>
     </>
   );
