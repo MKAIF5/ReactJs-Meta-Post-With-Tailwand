@@ -4,7 +4,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Meta />
+      <Meta userName="Kaif Khan" date="Wednesday at 9:00 PM"
+        hashtag="#Rizwan Bhatti #Saylani Mass It Training Program"
+        likes="Imran and 300,000 others" />
     </>
   );
 }

@@ -1,4 +1,4 @@
-function Meta() {
+function Meta(props) {
     return (
         <>
             <div className="bg-white w-1/3 m-auto mt-10 p-5">
@@ -10,9 +10,9 @@ function Meta() {
                             alt=""
                         />
                         <div className="mt-3">
-                            <p className="text-sm whitespace-nowrap">Mohammad Kaif</p>
+                            <p className="text-sm whitespace-nowrap">{props.userName}</p>
                             <p className="text-sm whitespace-nowrap text-gray-500">
-                                Wednesday at 8:00 PM
+                                {props.date}
                             </p>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function Meta() {
                     </p>
                     <br />
                     <p className="text-sm text-blue-500">
-                        #Rizwan Bhatti #Saylani Mass It Training Program
+                        {props.hashtag}
                     </p>
                 </div>
                 <br />
@@ -46,7 +46,7 @@ function Meta() {
                     <div className="flex gap-2">
                         <p className="text-xl">❤️ 👍🏻 😂</p>
                         <p className=" text-gray-600 text-sm mt-2">
-                            Imran and 300,000 others
+                            {props.likes}
                         </p>
                     </div>
                     <div className="right">
